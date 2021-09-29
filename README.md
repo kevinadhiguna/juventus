@@ -41,6 +41,10 @@ or
 docker-compose up -d
 ```
 
+Then you can visit the websites on :
+- http://localhost:8000 (Juventus Players Dashboard where you can see all Juventus players)
+- http://localhost:1337 (Management Dashboard where you add, edit, remove players)
+
 However, if you make any changes, please run :
 ```bash
 docker-compose up --build
