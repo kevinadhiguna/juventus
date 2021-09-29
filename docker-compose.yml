@@ -1,0 +1,43 @@
+version: '3.8'
+services:
+  # ReactJS web (client-side)
+  presentation_layer:
+    build:
+      context: ./client
+    ports:
+      - "8000:8000"
+    depends_on:
+      - logic_layer
+    networks:
+      - presentation-logic-network
+
+  # Back-End with Remote Database (server-side, including API and MongoDB Atlas)
+  logic_layer:
+    build:
+      context: ./server
+    # restart: unless-stopped
+    environment:
+      NODE_ENV: ${NODE_ENV}
+      # == MongoDB Atlas configuration ==
+      DATABASE_CLIENT: mongo
+      DATABASE_HOST: ${DATABASE_HOST}
+      DATABASE_SRV: ${DATABASE_SRV}
+      DATABASE_PORT: ${DATABASE_PORT}
+      DATABASE_NAME: ${DATABASE_NAME}
+      DATABASE_USERNAME: ${DATABASE_USERNAME}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+      DATABASE_SSL: ${DATABASE_SSL}
+      # AUTHENTICATION_DATABASE: admin
+      CORS_ORIGIN: ${CORS_ORIGIN}
+      ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET}
+      # == Cloudinary configuration ==
+      CLOUD_NAME: ${CLOUD_NAME}
+      API_KEY: ${API_KEY}
+      API_SECRET: ${API_SECRET}
+    ports:
+      - "1337:1337"
+    networks:
+      - presentation-logic-network
+
+networks:
+  presentation-logic-network:

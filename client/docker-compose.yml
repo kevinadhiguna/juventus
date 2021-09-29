@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  antdpro_client:
+    container_name: antdpro_client
+    build: .
+    # To fix the issue : https://www.semicolonworld.com/question/72586/react-app-exiting-in-docker-container-with-exit-code-0
+    stdin_open: true
+    ports: 
+      - "8000:8000"
