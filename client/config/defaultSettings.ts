@@ -12,9 +12,9 @@ const Settings: LayoutSettings & {
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
-  title: 'Ant Design Pro - Strapi GraphQL Auth',
+  title: 'Juventus Players Dashboard',
   pwa: true,
-  logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
+  logo: 'https://s9.gifyu.com/images/another-juve.png',
   iconfontUrl: '',
 };
 

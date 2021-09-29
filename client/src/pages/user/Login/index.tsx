@@ -137,15 +137,13 @@ const Login: React.FC = () => {
         <div className={styles.top}>
           <div className={styles.header}>
             <Link to="/">
-              <img alt="logo" className={styles.logo} src="/logo.svg" />
-              <span className={styles.title}>Ant Design Pro - Strapi Auth</span>
+              {/* <img alt="logo" className={styles.logo} src="/logo.svg" /> */}
+              <img alt="logo" className={styles.logo} src="https://s9.gifyu.com/images/juventus-logo.png" />
+              <span className={styles.title}>Juventus</span>
             </Link>
           </div>
           <div className={styles.desc}>
-            {intl.formatMessage({
-              id: 'pages.layouts.userLayout.title',
-              defaultMessage: 'Ant Design Pro secured with Strapi GraphQL API 🔒',
-            })}
+            <p>⚫⚪ Fino Alla Fine !</p>
           </div>
         </div>
 
@@ -330,7 +328,7 @@ const Login: React.FC = () => {
                 />
               </>
             )} */}
-            <div
+            {/* <div
               style={{
                 marginBottom: 24,
               }}
@@ -345,14 +343,14 @@ const Login: React.FC = () => {
               >
                 <FormattedMessage id="pages.login.forgotPassword" defaultMessage="忘记密码" />
               </a>
-            </div>
+            </div> */}
           </ProForm>
-          <Space className={styles.other}>
+          {/* <Space className={styles.other}>
             <FormattedMessage id="pages.login.loginWith" defaultMessage="其他登录方式" />
             <AlipayCircleOutlined className={styles.icon} />
             <TaobaoCircleOutlined className={styles.icon} />
             <WeiboCircleOutlined className={styles.icon} />
-          </Space>
+          </Space> */}
         </div>
       </div>
       <Footer />

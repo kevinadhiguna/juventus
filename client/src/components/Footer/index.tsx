@@ -22,7 +22,7 @@ export default () => {
         {
           key: 'github',
           title: <GithubOutlined />,
-          href: 'https://github.com/kevinadhiguna/antdpro-strapi-auth',
+          href: 'https://github.com/kevinadhiguna/juventus',
           blankTarget: true,
         },
         {
