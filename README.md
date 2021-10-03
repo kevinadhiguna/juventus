@@ -1,10 +1,8 @@
-<br />
-<!--
-<h1 align="center">Juventus</h1>
--->
-
 <div align="center">
-  <img src="https://s9.gifyu.com/images/juventus-logo.png" alt="Juventus" height="350px" />
+  <!--
+  <img src="https://s9.gifyu.com/images/juventus-logo.png" alt="Juventus-dark-logo" height="350px" />
+  -->
+  <img src="https://s9.gifyu.com/images/e45k4jhfsdfw4.png" alt="Juventus-light-logo" height="350px" />
   <br />
   <p>A Juventus players website, Fino Alla Fine 🦓</p>
 
