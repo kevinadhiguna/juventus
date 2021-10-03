@@ -1,8 +1,12 @@
+<br />
+<!--
 <h1 align="center">Juventus</h1>
+-->
 
 <div align="center">
-
-A Juventus players website, Fino Alla Fine 🦓
+  <img src="https://s9.gifyu.com/images/juventus-logo.png" alt="Juventus" height="350px" />
+  <br />
+  <p>A Juventus players website, Fino Alla Fine 🦓</p>
 
 [![Build With Umi](https://img.shields.io/badge/build%20with-umi-028fe4.svg?style=flat-square)](http://umijs.org/) <br/>
 
