@@ -9,6 +9,9 @@
 [![Build With Umi](https://img.shields.io/badge/build%20with-umi-028fe4.svg?style=flat-square)](http://umijs.org/) <br/>
 
 <img alt="Ant Design Pro" src="https://img.shields.io/badge/Ant_Design_Pro-0170FE?style=for-the-badge&logo=ant-design&logoColor=white" /> <img alt="Ant Design" src="https://img.shields.io/badge/-Ant_Design-%230170FE?&style=for-the-badge&logo=ant-design&logoColor=white" /> <img alt="Strapi" src="https://img.shields.io/badge/strapi-2e7eea?style=for-the-badge&logo=strapi&logoColor=white" /> <img alt="GraphQL" src="https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white" /> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /> <img alt="Apollo GraphQL client" src="https://img.shields.io/badge/-Apollo_GraphQL-311C87?style=for-the-badge&logo=apollo-graphql" />
+<br />
+<img alt="Docker" src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" />
+<img alt="Docker-Compose" src="https://img.shields.io/badge/docker-compose%20-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" />
 
 <img alt="Ant Design Pro - Juventus Dashboard" src="https://s9.gifyu.com/images/324324kjhkjwe232.png" border="0" />
 
