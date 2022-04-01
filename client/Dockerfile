@@ -1,5 +1,5 @@
 # Pull a base image that will be used
-FROM node:14-alpine
+FROM node:16-alpine
 
 # Specify a working directory
 WORKDIR /client
