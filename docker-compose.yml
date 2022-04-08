@@ -18,6 +18,7 @@ services:
   logic_layer:
     build:
       context: ./server
+    image: juve-server_img
     container_name: juve_server
     # restart: unless-stopped
     environment:
