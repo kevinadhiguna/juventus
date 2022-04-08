@@ -6,7 +6,7 @@ services:
     build:
       context: ./client
     image: juve-client-img
-    container_name: juve_client
+    container_name: juve-client_ctr
     ports:
       - "8000:8000"
     depends_on:
