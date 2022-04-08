@@ -5,6 +5,7 @@ services:
   presentation_layer:
     build:
       context: ./client
+    image: juve-client-img
     container_name: juve_client
     ports:
       - "8000:8000"
