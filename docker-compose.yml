@@ -19,7 +19,7 @@ services:
     build:
       context: ./server
     image: juve-server_img
-    container_name: juve_server
+    container_name: juve-server_ctr
     # restart: unless-stopped
     environment:
       NODE_ENV: ${NODE_ENV:-development}
